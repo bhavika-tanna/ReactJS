@@ -33,4 +33,14 @@
 *Ans: React is known as React because it was designed to be reactive. This means that it was designed to efficiently update and render components when the data that it depends on changes. In React, a component's state is the data that it uses to render itself. When the state of a component changes, the component will re-render itself to reflect the new state. This makes it easy to build interactive, dynamic user interfaces. React's ability to efficiently update and render components when the data changes is what makes it so popular for building modern, interactive web applications. It allows developers to build complex, real-time applications that can handle large amounts of data and update smoothly as the data changes. The name "React" is also a short, simple, and easy-to-remember name, which has likely contributed to its popularity.*
 
 # ***5. What is crossorigin in script tag?***
-*Ans: *
+*Ans: The crossorigin attribute is an HTML attribute that is used to specify the CORS (Cross-Origin Resource Sharing) policy for a web page or resource. It is used to indicate whether or not a web page or resource should be allowed to be loaded from a different origin (a different domain, protocol, or port) than the one that served it.*
+
+*Syntax:* 
+><script src="https://other-domain.com/script.js" crossorigin="anonymous"></script>
+
+# ***6.What is diference between React and ReactDOM?***
+*Ans: React and ReactDOM are two separate libraries that are developed by Facebook. React is a JavaScript library for building user interfaces. It provides a declarative, efficient, and flexible way to build UI components and manage the state of your application. ReactDOM is a library that provides a way to render React components to the DOM (Document Object Model). It provides methods for rendering React components to the DOM and for unmounting components from the DOM.*
+
+# ***7. What is difference between react.development.js and react.production.js files via CDN?***
+*Ans: The main difference between these two files is the level of debugging information that they contain. The 'react.development.js' file is a version of React that is optimized for development and includes additional debugging information, such as error messages and warning messages. The 'react.production.js' file is a version of React that is optimized for production and does not include the extra debugging information.*
+
